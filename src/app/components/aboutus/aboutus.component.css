@@ -1,0 +1,91 @@
+*{
+  font-family: 'Crimson';
+}
+p{
+  font-size: 18px;
+  margin-top: 5px;
+}
+#top{
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('/assets/images/IMG_6247.JPG');
+
+  background-attachment: scroll;
+  background-position: revert;
+  filter: brightness(50%);
+}
+.about-us-wrapper{
+  padding: 20px 180px;
+}
+.about-us{
+  width: 80%;
+  margin: 20px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-us-item{
+  width: 400px;
+  height: 500px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  display: flex;
+}
+.text1{
+  padding-bottom: 130px;
+}
+.text2{
+  padding-top: 130px;
+
+}
+
+.long-photo{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  background-image: url("/assets/images/IMG_6036.JPG");
+  background-size:  cover;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+.our-team{
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.our-team-wrapper{
+  padding: 20px 180px;
+}
+.team-item{
+  width: 250px;
+  height: 250px;
+}
+
+h1{
+  width: fit-content;
+  margin: auto;
+}
+
+q{
+color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#author{
+  color: white;
+  font-size: 20px;
+  margin-left: 450px;
+  margin-top: 10px;
+}

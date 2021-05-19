@@ -1,0 +1,78 @@
+<div id="main">
+  <div id="wrap">
+    <div class="container">
+      <div class="contacts">
+        <div class="contacts-wrap">
+          <div class="contacts-item">
+            <h1>Location</h1>
+            <div>Paris 97 rue Porte d'Orange</div>
+            <div>Paris 72 Rue Marie De Médicis</div>
+          </div>
+          <div class="contacts-item">
+            <h1>Phones</h1>
+            <div>05.25.45.95.45</div>
+            <div>03.10.08.64.91</div>
+          </div>
+          <div class="contacts-item">
+            <h1>E-MAIL</h1>
+            <div>eclair@gmail.com</div>
+
+          </div>
+          <div class="contacts-item">
+            <h1>Open for you</h1>
+            <div>Mn-Fr: 9:00-21:00</div>
+            <div>Sa-Su: 10:00-22:00</div>
+          </div>
+        </div>
+
+      </div>
+      <div class="writeUs">
+        <form [formGroup]="loginForm" (submit)="submit()" id="myForm">
+          <mat-form-field class="form-field" appearance="outline">
+            <mat-label> Your name</mat-label>
+            <input matInput formControlName="name" required>
+            <mat-error *ngIf="loginForm.controls.name.touched && loginForm.controls.name.invalid">
+              <span *ngIf="loginForm.controls.name.errors.required">This field is mandatory.</span>
+            </mat-error>
+          </mat-form-field>
+
+
+
+
+          <mat-form-field class="form-field" appearance="outline">
+            <mat-label> E-mail
+            </mat-label>
+            <input matInput formControlName="email" required>
+            <mat-error *ngIf="loginForm.controls.email.touched && loginForm.controls.email.invalid">
+              <span *ngIf="loginForm.controls.email.errors.required">This field is mandatory.</span>
+              <span *ngIf="loginForm.controls.email.errors.pattern">This field is invalid.</span>
+            </mat-error>
+          </mat-form-field>
+          <mat-form-field class="form-field" appearance="outline">
+            <mat-label> Phone
+            </mat-label>
+            <input matInput formControlName="phone">
+            <mat-error *ngIf="loginForm.controls.phone.touched && loginForm.controls.phone.invalid">
+              <span *ngIf="loginForm.controls.phone.errors.required">This field is mandatory.</span>
+            </mat-error>
+          </mat-form-field>
+
+
+          <mat-form-field class="form-field" appearance="outline" id="text">
+            <mat-label> Text
+            </mat-label>
+            <textarea matInput formControlName="text" required></textarea>
+            <mat-error *ngIf="loginForm.controls.text.touched && loginForm.controls.text.invalid">
+              <span *ngIf="loginForm.controls.text.errors.required">This field is mandatory.</span>
+            </mat-error>
+          </mat-form-field>
+
+
+          <button mat-raised-button color="accent" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,140 @@
+
+<div class="some-box">
+  <video autoplay loop muted oncanplay="this.play()" onloadedmetadata="this.muted = true" class="video" id="video">
+    <source type="video/mp4" src="assets/images/Tour_Eiffel.mov">
+  </video>
+    <img src="assets/images/eclair_copy.png" alt="" id="logo">
+
+</div>
+
+<div class="about">
+<div class="image"></div>
+  <div class="text">
+    <p class="title">RESTAURANT</p>
+    <p class="subtitle">ECLAIR</p>
+    <p class="welcomeText">
+      Restaurant ECLAIR - a place for any occasion and the best meetings.
+      Your personal holiday or meeting with friends - we will always be glad to see you here!
+      We are waiting for a heartfelt get-together, a meeting with colleagues or just a delicious meal and relax.
+      <br>ECLAIR is a place that will become your second home.
+    </p>
+  </div>
+</div>
+
+<div class="discountTitle">
+  Promotions and offers
+</div>
+
+<!--<div class="carouselWrapper">-->
+<!--  <owl-carousel-o [options]="customOptions">-->
+<!--    <ng-container *ngFor="let slide of slides">-->
+<!--      <ng-template carouselSlide [id]="slide.id">-->
+<!--        <img [src]="slide.img">-->
+<!--      </ng-template>-->
+<!--    </ng-container>-->
+<!--  </owl-carousel-o>-->
+<!--</div>-->
+
+
+
+<div class="carouselWrapper">
+  <owl-carousel-o [options]="customOptions">
+    <ng-container>
+      <ng-template carouselSlide>
+        <div id="promm1" class="prommotions">
+          <h2>"2 + 1" on your favorite eclair</h2>
+          From Monday to Thursday, when ordering two eclairs, you get a third as a gift.</div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div id="promm2" class="prommotions"><h2>Cozy terrace for good company</h2>
+          Summer evenings are designed to spend them on a cozy terrace in good company. Come to us to taste delicious dishes and soft drinks!
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div id="promm3" class="prommotions"> <h2>New breakfasts!</h2>
+          On weekdays, from 10.00 to 12.00 we serve a special breakfast menu: Classic Florentine eggs with salmon or bacon ,
+          your favorite French-style avocado toast , tender zucchini pancakes with cream cheese ,light oatmeal with coconut milk ,
+          fragrant homemade cheesecakes with strawberry sauce
+        </div>
+      </ng-template>
+      <ng-template carouselSlide>
+        <div id="promm4" class="prommotions"> <h2>"Happy Hours" for alcoholic beverages</h2>
+          Every Wednesday from 10:00 to 22:00 when you buy 2 drinks you pay only for one!
+        </div>
+      </ng-template>
+    </ng-container>
+  </owl-carousel-o>
+</div>
+
+
+
+<div class="photos-wrap">
+  <div id="photos-subtitle">
+    Immerse yourself in the world of
+  </div>
+  <div id="photos-title">ECLAIR</div>
+<div class="photos">
+  <div class="photo">
+    <img class="img1" src="assets/images/photo-1467003909585-2f8a72700288.jfif" alt="">
+    <img class="img2" src="assets/images/photo-1557955776-857434f1c951.jfif" alt="">
+  </div>
+  <div class="photo ">
+    <img class="img2" src="assets/images/photo-1586969593928-1c87c1f9c2ef.jfif" alt="">
+    <img class="img1" src="assets/images/photo-1556940211-ea1d97e04458.jfif" alt="">
+  </div>
+  <div class="photo ">
+    <img class="img2" src="assets/images/photo-1414235077428-338989a2e8c0.jfif" alt="">
+    <img class="img1" src="assets/images/photo-1507486990559-1d65aaad9ba6.jfif" alt="">
+  </div>
+  <div class="photo ">
+    <img class="img1" src="assets/images/IMG_6603.JPG" alt="">
+    <img class="img2" src="assets/images/IMG_6602.JPG" alt="">
+  </div>
+  <div class="photo img">
+    <img class="img2" src="assets/images/IMG_6278.JPG" alt="">
+    <img class="img2" src="assets/images/photo-1428515613728-6b4607e44363.jfif" alt="">
+    <img class="img2" src="assets/images/photo-1447078806655-40579c2520d6.jfif" alt="">
+  </div>
+  <div class="photo img">
+    <img class="img1" src="assets/images/IMG_6601.JPG" alt="">
+    <img class="img2" src="assets/images/IMG_6301.JPG" alt="">
+  </div>
+  <div class="photo img">
+    <img class="img2" src="assets/images/IMG_6250.JPG" alt="">
+    <img class="img1" src="assets/images/photo-1592771584685-c3c2edcd5c31.jfif" alt="">
+  </div>
+
+</div>
+</div>
+
+<div class="footer">
+  <div id="footerLogo">
+    <img src="assets/images/eclair_copy.png" alt="">
+  </div>
+
+  <div class="contacts">
+    <div class="address">
+      <div>Paris 97 rue Porte d'Orange</div>
+      <div>Paris 72 Rue Marie De Médicis</div>
+
+    </div>
+    <div class="hours">
+      <div>Mn-Fr: 9:00-21:00</div>
+      <div>Sa-Su: 10:00-22:00</div>
+
+    </div>
+    <div class="phones">
+      <div>05.25.45.95.45</div>
+      <div>03.10.08.64.91</div>
+
+    </div>
+  </div>
+  <div class="social">
+    <mat-icon (click)="goToLink('https://www.facebook.com/diana.makovetskaya.7/')">facebook</mat-icon>
+    <div (click)="goToLink('https://www.instagram.com/katherine.ga/')"><span class="iconify" data-icon="mdi-instagram" data-inline="false"></span></div>
+  </div>
+
+  <div class="footer-text">
+    2021 RESTAURANT ECLAIR
+  </div>
+</div>

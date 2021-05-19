@@ -1,0 +1,99 @@
+*{
+  font-family: 'Crimson';
+}
+#main{
+/*position: relative;*/
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url('/assets/images/contactsPageImage.jpg');
+background-attachment: scroll;
+/*z-index: 2;*/
+  filter: brightness(50%);
+  padding: 200px 200px 150px 200px;
+
+}
+
+#wrap{
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.container{
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts,.writeUs{
+  width: 50%;
+}
+
+
+
+.contacts-item div{
+  font-size: 17px;
+}
+.contacts-wrap{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-item{
+  margin-bottom: 25px;
+}
+
+#myForm{
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: white !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: rgb(218, 165, 32) !important;
+}
+
+::ng-deep .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+  color: rgb(218, 165, 32) !important;
+  opacity: 0.8 !important;
+}
+
+::ng-deep .mat-input-element {
+  caret-color: white !important;
+}
+
+::ng-deep .mat-form-field-invalid .mat-input-element, .mat-warn .mat-input-element {
+  caret-color: white !important;
+}
+
+::ng-deep .mat-form-field-label {
+  color: rgba(0, 0, 0, .6) !important;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: white !important;
+}
+
+::ng-deep .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+  color: white !important;
+}
+
+mat-label {
+  color: white;
+}
+
+textarea {
+  max-height: 50px;
+}
+
+
+
+
+
+
+

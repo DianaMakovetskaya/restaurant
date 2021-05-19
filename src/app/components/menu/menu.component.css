@@ -1,0 +1,17 @@
+/*p{*/
+/*  font-family: 'Crimson Text', serif;*/
+/*  font-size: 30px;*/
+/*}*/
+.menu-wrap{
+  padding: 20px 180px;
+  background-image: url("/assets/images/Le%20Amoux.jpg");
+}
+img{
+  width: 47%;
+  height: 700px;
+}
+.menu{
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
