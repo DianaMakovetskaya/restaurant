@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~11.2.7",
     "@angular/platform-browser-dynamic": "~11.2.7",
     "@angular/router": "~11.2.7",
+    "@azure/ng-deploy": "^0.2.3",
     "jquery": "^3.6.0",
     "ngx-owl-carousel-o": "^5.0.0",
     "rxjs": "~6.6.0",

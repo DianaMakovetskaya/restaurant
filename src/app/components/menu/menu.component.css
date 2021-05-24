@@ -1,7 +1,4 @@
-/*p{*/
-/*  font-family: 'Crimson Text', serif;*/
-/*  font-size: 30px;*/
-/*}*/
+
 .menu-wrap{
   padding: 20px 180px;
   background-image: url("/assets/images/Le%20Amoux.jpg");
@@ -14,4 +11,37 @@ img{
   margin-top: 150px;
   display: flex;
   justify-content: space-between;
+}
+
+
+
+/*@media all and (max-width: 1600px){*/
+/*  .menu-wrap{*/
+/*    padding: 1.5% 11.25%;*/
+/*    background-image: url("/assets/images/Le%20Amoux.jpg");*/
+/*  }*/
+/*  img{*/
+/*    width: 47%;*/
+/*    height: 700px;*/
+/*  }*/
+/*  .menu{*/
+/*    margin-top: 15%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*  }*/
+/*}*/
+@media all and (max-width: 960px){
+  .menu-wrap{
+    padding: 1.5% 11.25%;
+    background-image: url("/assets/images/Le%20Amoux.jpg");
+  }
+  img{
+    width: 47%;
+    height: 4%;
+  }
+  .menu{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+  }
 }

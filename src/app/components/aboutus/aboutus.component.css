@@ -89,3 +89,42 @@ color: white;
   margin-left: 450px;
   margin-top: 10px;
 }
+
+
+
+.example-card{
+  text-align: center;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapperForTeam{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.round-image{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+.hardin-img{
+  background-image: url('/assets/images/Hardin.jpg');
+}
+.leonardo-img{
+  background-image: url('/assets/images/Leonardo.jpg');
+}
+.ariana-img{
+  background-image: url('/assets/images/Ariana.JPG');
+}
+.valya-img{
+  background-image: url('/assets/images/Valya.JPG');
+}

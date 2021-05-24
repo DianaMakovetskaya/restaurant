@@ -18,6 +18,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import { AlertComponent } from './components/alert/alert.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatDialogModule,
+    MatCardModule,
     MatInputModule,
     BrowserModule,
     BrowserAnimationsModule,
